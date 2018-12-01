@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="Index2.css">
+</head>
+<body>
+
+<!-- Navbar2-->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+    <div class="dropdown">
+    <a class="dropdown-toggle w3-bar-item w3-button" data-toggle="dropdown" href="#">Artists
+    <span  class="caret"></span></a>
+    <nav id= "qs" class=" dropdown-menu navbar">
+    <a id= "Painters" href="index.html" class="w3-bar-item w3-button"> Banksy </a>
+    <a id= "Painters" href="#" class="w3-bar-item w3-button">Ai Weiwei</a>
+    <a id= "Painters" href="#" class="w3-bar-item w3-button">Marina Abramovic</a>
+    </nav>
+  </div>
+  <a href="Index2.html" onclick="w3_close()" class="w3-bar-item w3-button">About the project</a>
+</nav>
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">ArtNotWar</div>
+  </div>
+</div>
+
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="pictures">
+    <div class="w3-quarter">
+      <img src="Images/banksy10.jpg" alt="Show Me the Monet" style="width:100%">
+      <h3>Show Me the Monet</h3>
+      <p>By using shopping carts, an image associated with consumerism, Banksy's message is that society is focused on material goods, buying more than is necessary in a futile attempt to make ourselves feel happy and fulfilled. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Images/banksy6.jpg" alt="Unwelcome Internvention" style="width:100%">
+      <h3>Unwelcome Intervention</h3>
+      <p>This piece plays on the notion that the grass may be greener, and the landscape (perhaps environmental, perhaps political) may be better on the other side of this large barrier (although we know that it isn't). The artist may also be suggesting that a better political landscape could only emerge if the barrier were destroyed. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Images/banksy7.jpg"  alt="One nation under CCTV" style="width:100%">
+      <h3>One Nation Under CCTV</h3>
+      <p>This work aims to criticize the excessive surveillance (both from CCTV cameras in public spaces, as well as in other forms such as online) that has recently become a controversial issue both in the UK and abroad. </p>
+    </div>
+    <div class="w3-quarter">
+      <img src="Images/banksy8.jpg" alt="Hammer Boy" style="width:100%">
+      <h3>Hammer Boy</h3>
+      <p>With site-specific works like Hammer Boy, Banksy and other street artists encourage viewers to envision urban spaces, surfaces, and objects differently, and to see fun and whimsy in otherwise mundane spaces.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="Index3.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="Index3.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3>About Banksy</h3><br>
+    <img src="Images/Banksy3.jpg" alt="Banksy" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>British Graffiti artist, political activist, and film director</b></h4>
+      <h6><i>Years worked: 1990-now</i></h6>
+      <p>Banksy, a street artist whose identity remains unknown, is believed to have been born in Bristol, England, around 1974. He rose to prominence for his provocative stenciled pieces in the late 1990s. Banksy is the subject of a 2010 documentary, Exit Through the Gift Shop, which examines the relationship between commercial and street art.</p>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>QUOTE</h3>
+      <p>"Become good at cheating and you never need to become good at anything else."</p>
+      <p>Banksy</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>More resources</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="Images/Pic1.png" class="w3-left w3-margin-right" style="width:50px">
+          <a href= "https://www.theartstory.org/section_artists_political_artists.htm"<a><span class="w3-large">The Art Story</span><br></a>
+          <span>Modern Art Insight</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="Images/Pic2.png" class="w3-left w3-margin-right" style="width:50px">
+          <a href="http://www.banksy.co.uk/"<span class="w3-large">Banksy</span><br></a>
+          <span>The artist's website</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Banksy</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Beast</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Street Art</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">PolitcalArt</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Vandalism</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">UK</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NYC</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">KissingCoppers</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Modern Art</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NapalmGirl</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">ArtFair</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Graffiti</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">MonaLisa</span>
+      </p>
+      <h3> Find us on social media:</h3>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
